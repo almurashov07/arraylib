@@ -41,6 +41,9 @@ int main()
     int d[] = {1, 2, 3, 4};
     assert(arr_product(d, 4) == 24);
 
+    int fractional[] = {4, 1, 3, 2};
+assert(close(arr_median(fractional, 4), 2.5));
+
     std::cout << "[unit] All tests passed\n";
 
     return 0;
